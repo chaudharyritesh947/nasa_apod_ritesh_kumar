@@ -1,0 +1,24 @@
+{
+  "name": "nasaapodriteshkumar_sampleproject",
+  "version": "1.0.0",
+  "description": "This is simple project to fetch the node data from nasa api.\r So what we will do is we will is\r 1. we will call the api\r 2. we will store the info in mongo",
+  "main": "app.js",
+  "scripts": {
+   "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudharyritesh947/nasa_apod_ritesh_kumar.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chaudharyritesh947/nasa_apod_ritesh_kumar/issues"
+  },
+  "homepage": "https://github.com/chaudharyritesh947/nasa_apod_ritesh_kumar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
