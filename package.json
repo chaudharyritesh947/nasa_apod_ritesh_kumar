@@ -4,7 +4,7 @@
   "description": "This is simple project to fetch the node data from nasa api.\r So what we will do is we will is\r 1. we will call the api\r 2. we will store the info in mongo",
   "main": "app.js",
   "scripts": {
-   "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/chaudharyritesh947/nasa_apod_ritesh_kumar#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongo": "^0.1.0",
-    "nodemon": "^2.0.15"
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
   }
 }
