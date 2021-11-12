@@ -27,8 +27,9 @@ http.createServer((req, res)=>{
         db.collection("astronomy_data").find(query).toArray(function(err, result) {
           if (err) throw err;
           if(result.length>0){
-
-            res.write(`<img alt="nasa-image" src=${result[0].url}> ${JSON.stringify(result[0])}`);
+            res.write(`<h1>${result[0].title}</h1>`);
+            res.write(`<img src=${result[0].url} alt="nasa-apod image">`);
+            res.write(`<p>${result[0].explanation}</p>`);
           }
           else{
             request.callApi(function(responce){
